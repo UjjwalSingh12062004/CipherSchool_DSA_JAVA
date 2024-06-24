@@ -1,22 +1,20 @@
-class lecture3{
-    public static void main(String args[]){
-        int a=5;
-        int b=6;
-        System.out.println("the value of a is : "+a);
-        System.out.println("the value of b is : "+b);
+" GIT and GITHUB "
+Git Commands
+---------------------
+-->git config
+Usage: git config –global user.name “[name]”  
+Usage: git config –global user.email “[email address]”  
+This command sets the author name and email address respectively to be used with your commits.
+-->git init
+Usage: git init [repository name]
+This command is used to start a new repository.
+-->git add
+Usage: git add [file]  
+This command adds a file to the staging area.
+-->git commit
+Usage: git commit -m “[ Type in the commit message]”  
+This command records or snapshots the file permanently in the version history.
 
-        byte c=10;
-        System.out.println("value of c is : "+ c);
-
-        //widening(Narrowing/Upcasting)
-        int d=c;
-        System.out.println("Value of d is : "+d);
-
-        //Implicit Typecasting or Narrowing or Down-casting
-        byte c2=(byte)129; 
-        System.out.println("c2 is : "+c2);
-
-        byte c3=(byte)256; 
-        System.out.println("c2 is : "+c3);
-    }
-}
+git status
+Usage: git status  
+This command lists all the files that have to be committed.
